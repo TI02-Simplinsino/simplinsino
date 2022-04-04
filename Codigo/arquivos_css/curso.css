@@ -1,0 +1,169 @@
+/* ------------------ MENU LATERAL ------------------*/
+
+.voltar  {
+    margin-top: 10px !important;
+    width: 100%;
+}
+
+.salvar    {
+    width: 100%;
+    margin-top: 30px !important;
+    background-color: #87c58f;
+    color: #fff !important;
+    transition: background-color 0.2s;
+}
+
+
+
+
+.menu-lateral h6 {
+    text-align: center;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu-lateral ul li a {
+    text-decoration: none;
+}
+
+.menu-lateral .btn {
+    width: 170px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 767.9px) {
+    .menu-lateral .btn {
+        width: 300px;
+    }
+}
+
+.salvar,
+#btnVoltar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-btns {
+    text-align: center;
+}
+
+@media screen and (max-width: 767.9px) {
+    .salvar,
+    #btnVoltar {
+        width: 300px;
+    }
+}
+
+
+.menu-lateral {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.menu-lateral details ul {
+    text-align: center;
+}
+
+/*  SANFONA   */
+details {
+    overflow: hidden;
+}
+
+summary {
+    padding: 1rem;
+    display: block;
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+summary:before {
+    content: "";
+    border-width: 0.4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #87c58f;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: 0.2rem 50%;
+    transition: 0.25s transform ease;
+}
+
+details[open] > summary:before {
+    transform: rotate(90deg);
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details > ul {
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+
+/* ------------------ CURSO ------------------*/
+
+.curso h1 {
+    padding-bottom: 20px !important;
+    margin-bottom: 0;
+}
+
+.curso h3 {
+    color: #bed5dc;
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:575.9px) {
+    .curso h4 {
+        margin-bottom: 25px;
+    }
+}
+
+.curso h5 {
+    text-align: left;
+    margin-bottom: 5px;
+    text-transform: none;
+    color: #0f5088;
+    margin-top: 20px;
+}
+
+
+.curso p {
+    text-align: justify;
+}
+.curso span {
+    color: #87c58f;
+    font-family: "Montserrat";
+}
+
+.container-curso-video iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+#nomeCurso {
+    padding-bottom: 0px;
+}
+
+
+
+
+/* ------------------ MODAL CURSO ------------------*/
+
+#modalAlerta h6 {
+    color: #0f5088;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#modalAlerta .btn-close {
+    height:fit-content;
+    padding: 6px 1px;
+}

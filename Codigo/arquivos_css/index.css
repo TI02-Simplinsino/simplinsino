@@ -1,0 +1,283 @@
+p {
+    text-align: justify;
+}
+
+
+/*-------------------------- INICIO -------------------------*/
+
+
+.row .inicio {
+    padding-top: 0 !important;
+}
+
+.inicio img {
+    width: 100%;
+}
+
+.inicio h5,
+.inicio h2,
+.inicio h1 {
+    text-transform: none;
+    text-align: left;
+    color: #0f5088;
+    margin-right: 20px;
+}
+
+.inicio h1 {
+    padding-bottom: 25px;
+}
+
+.inicio h5 {
+    margin-bottom: 12px;
+    font-size: 115%;
+}
+
+@media screen and (max-width: 1399.9px) {
+    .inicio h5 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 991.9px) {
+
+    .inicio p {
+        display: none;
+    }
+    .inicio h5,
+    .inicio h2,
+    .inicio h1 {
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+    .inicio h5,
+    .inicio h2,
+    .inicio h1 {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: 0px;
+        line-height: 45px;
+    }
+
+}
+
+
+.inicio span {
+    color: #87c58f;
+}
+
+.inicio p {
+    margin-right: 40px;
+}
+
+
+    
+
+/*-------------------------- VANTAGENS -------------------------*/
+
+.vantagens p {
+    margin: 0 20px;
+}
+
+.vantagens {
+    text-align: center;
+    background-color: #f8f9fa ;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 12px;
+}
+
+.vantagens img {
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 991.9px) {
+    .vantagens p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+    .vantagens img {
+        margin-top: 30px;
+    }
+}
+
+/*-------------------------- MATERIA -------------------------*/
+
+
+.materia ul {
+    list-style: none;
+}
+
+.materia img {
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+.materia .btn {
+    color: #0f5088 !important;
+    border: solid 1px #0f5088;
+    margin-left: 20px;
+    width: 110px;
+}
+
+.materia .btn:hover {
+    color: #fff !important;
+}
+
+.container-mat {
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 767.9px) {
+
+    .container-mat {
+        text-align: left;
+    }
+}
+
+
+@media screen and (max-width: 503.9px) {
+    .materia ul {
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .materia li {
+        padding-left: 0px !important;
+    }
+    .container-mat {
+        text-align: center;
+        display: block;
+    }
+    .materia .btn {
+        margin-bottom: 10px;
+    }
+    .materia img {
+        width: 40%;
+    }
+}
+
+
+
+@media screen and (max-width: 773.9px) {
+
+    .materia .btn {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 991.9px) and (min-width: 768px){
+    .materia .btn {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        width: 150px;
+    }
+    .container-mat {
+        text-align: center;
+        display: block;
+    }
+
+
+    .materia img {
+        width: 45%;
+    }
+}
+
+
+/*-------------------------- CARROSSEL -------------------------*/
+
+.main-carrossel {
+    font-weight: 400;
+    color: #0f5088;
+    font-size: 20px;
+    padding: 40px 40px 0;
+    border-radius: 12px 12px 0 0;
+}
+
+.carousel-container {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.carousel-container p {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 0px !important;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: #87c58f4b;
+}
+
+.txt-carrossel {
+    font-weight: 300;
+    padding: 10px 40px 40px;
+    border-radius: 0 0 12px 12px;
+}
+
+@media screen and (max-width: 991.9px) {
+    .txt-carrossel {
+        display: none;
+    }
+
+    .main-carrossel {
+        border-radius: 12px;    
+    }
+}
+
+.carousel-indicators {
+    bottom: 0 !important;
+}
+
+.carousel-container {
+    padding-top: 0px;
+}
+
+.organizacao {
+    padding-bottom: 0;
+}
+
+.organizacao .container-btn {
+    text-align: center !important;
+}
+
+.organizacao .btn {
+    margin-top: 25px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    width: 150px;
+}
+
+@media screen and (max-width: 991.9px) {
+
+    .carousel-container p {
+        font-size: 18px;
+        margin-left: 40px ;
+        margin-right: 40px ;
+        padding: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

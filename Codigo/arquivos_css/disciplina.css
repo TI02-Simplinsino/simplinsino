@@ -1,0 +1,197 @@
+/* ------------------ MENU LATERAL ------------------*/
+
+.menu-lateral img {
+    width: 100%;
+}
+
+.container-img {
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 767.9px) {
+    .menu-lateral img {
+        width: 70%;
+    }
+}
+
+.menu-lateral h6 {
+  text-align: center;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu-lateral ul li a {
+    text-decoration: none;
+}
+
+.menu-lateral .btn {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.menu-lateral {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.menu-lateral details ul {
+    text-align: center;
+}
+
+/*  SANFONA   */
+details {
+    overflow: hidden;
+}
+
+summary {
+    padding: 1rem;
+    display: block;
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #87c58f;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+}
+
+details[open] > summary:before {
+    transform: rotate(90deg);
+}
+
+details summary::-webkit-details-marker {
+    display:none;
+}
+
+details > ul {
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+
+.menu .btn {
+    display: flex;
+    justify-content: end;
+    padding-top: 100px;
+}
+
+
+/* ------------------ CURSOS ------------------*/
+
+.cursos h1 {
+    margin-bottom: 0;
+    
+}
+
+#lista_cursos {
+    list-style: none;
+}
+
+.container-curso  {
+    padding: 20px;
+    border: solid 1px #87c58f;
+    border-radius: 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container-btn-titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767.9px) {
+    .container-curso {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+
+
+.container-curso img {
+    width: 100%;
+}
+
+.container-texto {
+    margin-left: 25px;
+    text-align: justify;
+}s
+
+button {
+    background-color: #fff;
+}
+
+
+button {
+    border: none;
+    margin-left: auto;
+    margin-right: 0%;
+    background-color: #fff;
+}
+
+.btn-coracao {
+    color: rgb(202, 202, 202);
+    font-size: 24px;
+}
+
+.btn-coracao:hover {
+    color: rgb(255, 128, 96);
+}
+
+
+
+@media screen and (max-width: 991.9px) {
+    .container-curso img {
+        display: none;
+    }
+
+    .container-texto {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+.cursos h5 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.cursos span {
+    color: #87c58f;
+    font-family: 'Montserrat';
+}
+
+.cursos a {
+    text-decoration: none;
+}
+
+#lista_cursos {
+    padding-left: 0;
+}
+
+
+
+
+

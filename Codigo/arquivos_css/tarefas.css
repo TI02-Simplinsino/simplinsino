@@ -1,0 +1,78 @@
+label {
+    font-weight: bolder;
+}
+::placeholder {
+    color: #87c58f !important;
+    opacity: 3;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:  #87c58f !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:  #87c58f !important;
+    opacity:  3;
+ }
+
+ #msg {
+     height: 60px;
+ }
+ #grid-contatos tbody {
+     cursor: pointer;
+ }
+
+ .container-btns  .btn {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+#grid-tarefas {
+    margin-top: 40px;
+}
+
+.container-btns {
+    text-align: center;
+}
+
+.container-btns .btn {
+    padding: 6px 30px;
+    margin-right: 8px;
+}
+
+.tarefas {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table-tarefas li {
+    margin-top: 30px !important
+}
+.container-tarefa {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px 20px 20px 20px;
+}
+
+.container-tarefa  p {
+    padding-bottom: 10px;
+}
+
+
+
+#table-tarefas {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#form-tarefa {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 477.9px) {
+    #btnDelete {
+        display: none;
+    }
+}
