@@ -27,7 +27,6 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 <br>
 
 |   ID  |                                                                   DESCRIÇÃO                                                                                    | 
-
 | RF-01 | O site deve atuar como centralizador de conteúdo das matérias do EM e EF                                                                                       | 
 | RF-02 | O site deve apresentar na página principal um menu de navegação seperado por materia.                                                                          | 
 | RF-03 | O site deve permitir que o usuário mande suas dúvidas em 'quadros brancos" separados por matéria.                                                              | 
