@@ -26,22 +26,7 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 
 <br>
 
-|   ID  |                                                                   DESCRIÇÃO                                                                                    | 
-| RF-01 | O site deve atuar como centralizador de conteúdo das matérias do EM e EF                                                                                       | 
-| RF-02 | O site deve apresentar na página principal um menu de navegação seperado por materia.                                                                          | 
-| RF-03 | O site deve permitir que o usuário mande suas dúvidas em 'quadros brancos" separados por matéria.                                                              | 
-| RF-04 | Funcionalidade de login                                                                                                                                        | 
-| RF-05 | Em cada matéria o usuário deve ser capaz de acessar vídeos, provas/questoes e links confiáveis e de fontes distintas para pesquisa e conteúdo extra            | 
-| RF-06 | No site também estarão disponíveis conteúdos que auxiliam o aluno a estudar e se organizar de forma mais eficiente                                             | 
-| RF-07 | Quadro kanban / página para registro do que deve ser estudado, com diferenciação por prioridade                                                                | 
-| RF-08 | O site deve permitir que os moderadores e os professores parceiros adicionem material                                                                          | 
-| RF-09 | Pontuação para as melhores respostas nos quadros                                                                                                               | 
-| RF-10 | Sistema de upvote e downvote de respostas                                                                                                                      | 
-| RF-11 | Sistema de views (ou upvote e downvote) de vídeos                                                                                                              | 
-| RF-12 |                                                                                                                                                                |
-| RF-13 | Permitir que o usuário salve cursos                                                                                                                            | 
-| RF-13 | Permitir que o usuário acompanhe seu progresso em cada curso                                                                                                   | 
-| RF-14 | Dois cadastros obrigatórios                                                                                                                                    | 
+                                                                                            | 
 
 
 
