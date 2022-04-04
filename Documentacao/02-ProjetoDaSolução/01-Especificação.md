@@ -26,7 +26,7 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 
 <br>
 
-                                                                                            | 
+                                                                                           
 
 
 
