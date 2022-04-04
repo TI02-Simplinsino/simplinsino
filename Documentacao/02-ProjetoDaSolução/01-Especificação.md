@@ -41,7 +41,7 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 | RF11 | Controle de assinatura - quantidade de cursos assistidos pelo usuário VS limite de cursos da assinatura                                                |
 | RF12 | Controle do número de cursos que podem ser assistidos gratuitamente                                                                                    |
 | RF13 | Pagamento                                                                                                                                              |
-                                                                                           
+| RF14 | Criação de novos usuários                                                                                                                              |                                                                                           
 
 <br>
 
