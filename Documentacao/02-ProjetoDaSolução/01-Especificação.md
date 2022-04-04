@@ -27,7 +27,7 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 <br>
 
 | ID   | DESCRIÇÃO                                                                                                                                              |
-|:----:|:------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|:----:|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RF01 | O site deve apresentar na página principal um menu de navegação seperado por disciplina                                                                |
 | RF02 | Funcionalidade de login do usuário (controle por CPF)                                                                                                  |
 | RF03 | "Em cada matéria o usuário deve ser capaz de acessar vídeos, provas/questoes e links confiáveis e de fontes distintas para pesquisa e conteúdo extra " |
