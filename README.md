@@ -13,11 +13,16 @@
 
 * Felipe Aguilar Santos Moura
 * Fernanda Mendes Gomes
-* Pablo Tosi 
+* Henrique Grissi Cardoso Soeiro de Carvalho
+* Pedro Olyntho Carvalho Alves
 
 ## Professores responsáveis
 
-* Rommel Vieira Carneiro
+* Max do Val Machado
+* Wladimir Brandão
+* Sandro Jerônimo
+* Ilo Amy Saldanha
+* Fabio Leandro Rodrigues
 
 ## Instruções de utilização
 
