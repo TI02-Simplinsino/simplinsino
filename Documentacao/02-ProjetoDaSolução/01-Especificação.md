@@ -42,7 +42,7 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 | RF12 | Controle do número de cursos que podem ser assistidos gratuitamente                                                                                    |
 | RF13 | Pagamento                                                                                                                                              |
 | RF14 | Permitir que o usuário salve cursos                                                                                                                    |
-                                                                                          
+| RF15 | Chatbot de recomendação de conteúdo                                                                                                                    |                                                                                          
 
 <br>
 
