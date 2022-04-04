@@ -47,7 +47,7 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 | RNF-06 | Criptografia de senha                                                                             |
 | RNF-07 | O site deverá ser publicado em servidor confiável                                                 |
 | RNF-08 | O sistema deverá se comunicar com o banco de dados                                                |
-
+| RNF-09 | O site deve atuar como centralizador de conteúdo das matérias do EM e EF                          |
 <br>
 
 ## Restrições do projeto
