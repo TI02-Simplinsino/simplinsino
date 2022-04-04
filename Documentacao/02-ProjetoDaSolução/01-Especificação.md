@@ -26,10 +26,22 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 
 <br>
 
+| ID   | DESCRIÇÃO                                                                                                                                              |
+|:----:|:------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| RF01 | O site deve apresentar na página principal um menu de navegação seperado por disciplina                                                                |
+| RF02 | Funcionalidade de login do usuário (controle por CPF)                                                                                                  |
+| RF03 | "Em cada matéria o usuário deve ser capaz de acessar vídeos, provas/questoes e links confiáveis e de fontes distintas para pesquisa e conteúdo extra " |
+| RF04 | Permitir que o usuário salve cursos                                                                                                                    |
+| RF05 | O site deve permitir que os moderadores e os professores parceiros adicionem material                                                                  |
+| RF06 | Permitir que o usuário salve cursos                                                                                                                    |
+| RF07 | O site deve permitir que os moderadores e os professores parceiros adicionem material                                                                  |
+| RF08 | Edição de perfil                                                                                                                                       |
+| RF09 | "Quadro kanban / página para registro do que deve ser estudado, com diferenciação por prioridade"                                                      |
+| RF10 | Google ads para usuários não pagantes                                                                                                                  |
+| RF11 | Controle de assinatura - quantidade de cursos assistidos pelo usuário VS limite de cursos da assinatura                                                |
+| RF12 | Controle do número de cursos que podem ser assistidos gratuitamente                                                                                    |
+| RF13 | Pagamento                                                                                                                                              |
                                                                                            
-
-
-
 
 <br>
 
