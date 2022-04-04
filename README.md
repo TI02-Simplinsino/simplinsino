@@ -7,7 +7,8 @@
 * Conteúdo seguro e de qualidade para alunos do EM e EF
 * Fontes de pesquisa confiáveis
 * Provas do ENEM e questões de vestibular
-* Espaço com orientações de estudo e organização com o intuito de otimizar o tempo dos alunos e conciliar as atividades e afazeres do estudante.  
+* Espaço com orientações de estudo e organização com o intuito de otimizar o tempo dos alunos e conciliar as atividades e afazeres do estudante. 
+* Tudo concentrado em um só lugar 
 
 ## Alunos integrantes da equipe
 
