@@ -26,23 +26,23 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 
 <br>
 
-|   ID  |                                                                   DESCRIÇÃO                                                                                    | PRIORIDADE  |
-|:-----:|--------------------------------------------------------------------------------------------------------------------------------------------------------------  |:------------:|
-| RF-01 | O site deve atuar como centralizador de conteúdo das matérias do EM e EF                                                                                       | Alta        |
-| RF-02 | O site deve apresentar na página principal um menu de navegação seperado por materia.                                                                          | Alta        |
-| RF-03 | O site deve permitir que o usuário mande suas dúvidas em 'quadros brancos" separados por matéria.                                                              | Media        |
-| RF-04 | Funcionalidade de login                                                                                                                                        | Alta        |
-| RF-05 | Em cada matéria o usuário deve ser capaz de acessar vídeos, provas/questoes e links confiáveis e de fontes distintas para pesquisa e conteúdo extra            | Alta        |
-| RF-06 | No site também estarão disponíveis conteúdos que auxiliam o aluno a estudar e se organizar de forma mais eficiente                                             | Alta        |
-| RF-07 | Quadro kanban / página para registro do que deve ser estudado, com diferenciação por prioridade                                                                | Media        |
-| RF-08 | O site deve permitir que os moderadores e os professores parceiros adicionem material                                                                          | Alta        |
-| RF-09 | Pontuação para as melhores respostas nos quadros                                                                                                               | Baixa        |
-| RF-10 | Sistema de upvote e downvote de respostas                                                                                                                      | Baixa        |
-| RF-11 | Sistema de views (ou upvote e downvote) de vídeos                                                                                                              | Baixa       |
-| RF-12 | Os vídeos mais visualizados (ou recomendados) aparecerão em um carrossel que terá destaque na aba da matéria                                                   | Baixa       
-| RF-13 | Permitir que o usuário salve cursos                                                                                                                            | Alta       |
-| RF-13 | Permitir que o usuário acompanhe seu progresso em cada curso                                                                                                   | Média      |
-| RF-14 | Dois cadastros obrigatórios                                                                                                                                    | Alta     |
+|   ID  |                                                                   DESCRIÇÃO                                                                                    | 
+
+| RF-01 | O site deve atuar como centralizador de conteúdo das matérias do EM e EF                                                                                       | 
+| RF-02 | O site deve apresentar na página principal um menu de navegação seperado por materia.                                                                          | 
+| RF-03 | O site deve permitir que o usuário mande suas dúvidas em 'quadros brancos" separados por matéria.                                                              | 
+| RF-04 | Funcionalidade de login                                                                                                                                        | 
+| RF-05 | Em cada matéria o usuário deve ser capaz de acessar vídeos, provas/questoes e links confiáveis e de fontes distintas para pesquisa e conteúdo extra            | 
+| RF-06 | No site também estarão disponíveis conteúdos que auxiliam o aluno a estudar e se organizar de forma mais eficiente                                             | 
+| RF-07 | Quadro kanban / página para registro do que deve ser estudado, com diferenciação por prioridade                                                                | 
+| RF-08 | O site deve permitir que os moderadores e os professores parceiros adicionem material                                                                          | 
+| RF-09 | Pontuação para as melhores respostas nos quadros                                                                                                               | 
+| RF-10 | Sistema de upvote e downvote de respostas                                                                                                                      | 
+| RF-11 | Sistema de views (ou upvote e downvote) de vídeos                                                                                                              | 
+| RF-12 |                                                                                                                                                                |
+| RF-13 | Permitir que o usuário salve cursos                                                                                                                            | 
+| RF-13 | Permitir que o usuário acompanhe seu progresso em cada curso                                                                                                   | 
+| RF-14 | Dois cadastros obrigatórios                                                                                                                                    | 
 
 
 
@@ -53,14 +53,16 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 
 <br>
 
-|   ID   |                                             DESCRIÇÃO                                             | PRIORIDADE |
-|:------:|---------------------------------------------------------------------------------------------------|:----------:|
-| RNF-01 | o site precisa de ter o design responsivo, funcionando normalmente em diferentes tamanhos de tela | Alta       |
-| RNF-02 | O site deverá ser otimizado para celular e tablet                                                 | Alta       |
-| RNF-03 | O site deve funcionar nos mais diversos navegadores                                               | Alta       |
-| RNF-04 | O design deve ser inteligente e intuitivo, de fácil utilização                                    | Alta       |
-| RNF-05 | Desenvolvido em html, css e javascript                                                            | Alta       |
-
+|   ID   |                                             DESCRIÇÃO                                             | 
+|:------:|---------------------------------------------------------------------------------------------------|
+| RNF-01 | O site precisa de ter o design responsivo, funcionando normalmente em diferentes tamanhos de tela |
+| RNF-02 | O site deverá ser otimizado para celular e tablet                                                 |
+| RNF-03 | O site deve funcionar nos mais diversos navegadores                                               |
+| RNF-04 | O design deve ser inteligente e intuitivo, de fácil utilização                                    |
+| RNF-05 | Desenvolvido em html, css e javascript                                                            |
+| RNF-06 | Criptografia de senha                                                                             |
+| RNF-07 | O site deverá ser publicado em servidor confiável                                                 |
+| RNF-08 | O sistema deverá se comunicar com o banco de dados                                                |
 
 <br>
 
