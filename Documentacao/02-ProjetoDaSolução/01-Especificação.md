@@ -43,7 +43,7 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 | RNF-02 | O site deverá ser otimizado para celular e tablet                                                 |
 | RNF-03 | O site deve funcionar nos mais diversos navegadores                                               |
 | RNF-04 | O design deve ser inteligente e intuitivo, de fácil utilização                                    |
-| RNF-05 | Desenvolvido em html, css e javascript                                                            |
+| RNF-05 | Desenvolvido em html, css, javascript, java, SQL                                                  |
 | RNF-06 | Criptografia de senha                                                                             |
 | RNF-07 | O site deverá ser publicado em servidor confiável                                                 |
 | RNF-08 | O sistema deverá se comunicar com o banco de dados                                                |
