@@ -27,3 +27,5 @@ No desenvolvimento do projeto as tecnologias utilizadas foram:
 - JavaScript
 - JSON
 - jQuery
+- Java
+- Postgres SQL
