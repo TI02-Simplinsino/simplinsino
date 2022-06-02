@@ -37,12 +37,8 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 | RF07 | O site deve permitir que os moderadores e os professores parceiros adicionem material                                                                  |
 | RF08 | Edição de perfil                                                                                                                                       |
 | RF09 | "Quadro kanban / página para registro do que deve ser estudado, com diferenciação por prioridade"                                                      |
-| RF10 | Google ads para usuários não pagantes                                                                                                                  |
-| RF11 | Controle de assinatura - quantidade de cursos assistidos pelo usuário VS limite de cursos da assinatura                                                |
-| RF12 | Controle do número de cursos que podem ser assistidos gratuitamente                                                                                    |
-| RF13 | Pagamento                                                                                                                                              |
-| RF14 | Permitir que o usuário salve cursos                                                                                                                    |
-| RF15 | Chatbot de recomendação de conteúdo                                                                                                                    |                                                                                          
+| RF10 | Permitir que o usuário salve cursos                                                                                                                    |
+| RF11 | Chatbot de recomendação de conteúdo                                                                                                                    |                                                                                          
 
 <br>
 
@@ -61,6 +57,7 @@ Veja mais sobre as pesonas [aqui](https://github.com/ICEI-PUC-Minas-PPLCC-TI/tia
 | RNF-07 | O site deverá ser publicado em servidor confiável                                                 |
 | RNF-08 | O sistema deverá se comunicar com o banco de dados                                                |
 | RNF-09 | O site deve atuar como centralizador de conteúdo das matérias do EM e EF                          |
+| RNF-10 | O site deve ser seguro em relação a ataques por meio SQL Injection                                |
 <br>
 
 ## Restrições do projeto
