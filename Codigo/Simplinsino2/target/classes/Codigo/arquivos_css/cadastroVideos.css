@@ -1,0 +1,114 @@
+a {
+    text-decoration: none;
+    color: #87c58f;
+}
+a:hover{
+    color:#0f5088;
+}
+
+
+
+
+.container-videos {
+    background-color: #bed5dc50;
+    padding: 30px 50px 50px;
+    border-radius: 10px;
+}
+
+.container-videos h2, 
+.tabela h2 {
+    color: #0f5088;
+    padding-bottom: 20px;
+}
+
+.container-btns  .btn {
+    margin-top: 20px;
+}
+
+
+.container-btns {
+    text-align: center;
+}
+
+.container-btns .btn {
+    padding: 6px 30px;
+    margin-right: 8px;
+}
+
+
+.container-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.205);
+}
+
+.container-form  p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+label {
+    margin-top: 10px;
+}
+
+
+
+#btnEditar {
+    margin-top: 20px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background-color: #0f5088;
+    border: solid 1px #0f5088;
+    color: #fff !important;
+    transition: background-color 0.2s;
+    display: inline;
+}
+
+#btnEditar:hover {
+    background-color: #87c58f;
+    border: solid 1px #87c58f;
+    color: #fff !important;
+    transition: background-color 0.2s;
+}
+
+#btnApagar {
+    margin-top: 20px;
+    margin-right: 10px !important;
+}
+
+#btnApagar:hover {
+    background-color: rgb(255, 128, 96);
+    color: #fff !important;
+    border: solid 1px rgb(255, 128, 96);
+}
+
+
+.btnHolder {
+    text-align: right;
+}
+
+.apagar:hover {
+    background-color: rgb(255, 128, 96) !important;
+    border: solid 1px rgb(255, 128, 96) !important;
+}
+
+@media screen and (max-width: 485px) {
+    .btnHolder {
+        text-align: center;
+    }
+    #btnApagar {
+        margin-top: 10px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block;
+        width: 160px;
+    }
+    #btnEditar {
+        margin-top: 20px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block;
+        width: 160px;
+    }
+}

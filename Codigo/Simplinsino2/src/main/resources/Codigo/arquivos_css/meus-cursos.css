@@ -1,0 +1,150 @@
+
+/* ------------------ esconder botão de cadastro e mostrar como se a pessoa estivesse logada ------------------*/
+.cadastro {
+    display: none !important;
+}
+
+/* ------------------ PERFIL ------------------*/
+
+.container-perfil {
+    background-color: #87c58f4b;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.perfil img {
+    width: 90%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767.9px) {
+    .conatiner-imgperfil {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+    }
+    .perfil img {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 0px;
+    }
+    .container-infousuario {
+        float: right;
+        margin-top: 10px;
+        width: 75%;
+    }
+}
+
+.perfil h6 {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1198.9px) {
+    .perfil .btn {
+        font-size: 14px;
+    }
+    .container-perfil {
+        padding: 20px 10px;
+    }
+}
+
+/* ------------------ CURSOS ------------------*/
+
+#lista_cursos_salvos {
+    list-style: none;
+}
+
+.container-curso  {
+    padding: 20px;
+    border: solid 1px #87c58f;
+    border-radius: 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container-btn-titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767.9px) {
+    .container-curso {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+
+
+.container-curso img {
+    width: 100%;
+}
+
+.container-texto {
+    margin-left: 25px;
+    text-align: justify;
+}
+
+button {
+    background-color: #fff;
+}
+
+
+button {
+    border: none;
+    margin-left: auto;
+    margin-right: 0%;
+}
+
+.btn-coracao {
+    color: rgb(255, 128, 96);
+    font-size: 24px;
+}
+
+.btn-coracao:hover {
+    color: rgb(202, 202, 202);
+}
+
+
+
+@media screen and (max-width: 991.9px) {
+    .container-curso img {
+        display: none;
+    }
+
+    .container-texto {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+.cursos h5 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.cursos span {
+    color: #87c58f;
+    font-family: 'Montserrat';
+}
+
+.cursos a {
+    text-decoration: none;
+}
+
+#lista-cursos-salvos {
+    padding-left: 0;
+}
+
+

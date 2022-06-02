@@ -1,0 +1,72 @@
+/*-------------------------- PROVAS -------------------------*/
+.provas p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.primeira-linha {
+    margin-bottom: 5px !important;
+}
+
+.provas h4 {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #0f5088;
+    padding-bottom: 0;
+}
+
+.box-prova {
+    border: solid 1px #87c58f;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.provas a {
+    color: #0f5088;
+}
+
+
+/* ------- SANFONA -------  */
+
+details {
+    overflow: hidden;
+}
+
+summary {
+    padding: 1rem;
+    display: block;
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #87c58f;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+}
+
+details[open] > summary:before {
+    transform: rotate(90deg);
+}
+
+
+details summary::-webkit-details-marker {
+    display:none;
+}
+
+details > ul {
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}

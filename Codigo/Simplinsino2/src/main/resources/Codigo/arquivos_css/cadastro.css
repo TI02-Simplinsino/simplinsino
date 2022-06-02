@@ -1,0 +1,134 @@
+
+/*-------------------------- CADASTRO -------------------------*/
+
+.cadastro h1 {
+    padding: 0 10px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+.cadastro h4{
+    margin-bottom: 20px;
+}
+.cadastro img {
+    width: 80%;
+    display: block;
+    margin: 60px auto 0;
+}
+
+.cadastro p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+}
+
+.texto-p {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 991.9px) {
+    .cadastro img {
+        margin-top: 80px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:767.9px) {
+    .cadastro img {
+        margin-top: 20px;
+    }
+}
+
+.fundo  {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.esquerda {
+    background-color: #f8f9fa;
+    border-radius: 15px 0 0 15px;
+}
+
+.direita {
+    background-color: #87c58f4b;
+    border-radius: 0 15px  15px 0;
+}
+
+@media screen and (max-width: 767.9px) {
+    .esquerda {
+        background-color: #fff;
+    }
+
+    .fundo:first-of-type  {
+        padding-top: 0px;
+    }
+
+    .direita {
+        border-radius: 0px;
+    }
+
+    .cadastro img {
+        margin-top: 20px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 575.9px)
+{
+    .footer {
+        margin-top: 10px;
+    }
+}
+
+/*-------------------------- FORMULARIO -------------------------*/
+
+form {
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+form input {
+    margin-bottom: 15px;
+}
+
+.cadastro button,
+.btn-cadastro {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: 0;
+    width: 150px !important;
+}
+
+
+/*-------------------------- CARDS -------------------------*/
+.card h5 {
+    color: #0f5088;
+}
+
+.card {
+    width: 80%;
+}
+
+.card img {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.card-text  {
+    margin-bottom: 15px !important;
+}
+
+@media screen and (max-width: 1199.9px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+    .row.vantagens {
+        display: none;
+    }
+}

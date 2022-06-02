@@ -1,0 +1,151 @@
+/*-------------------------- CADASTRO -------------------------*/
+
+.cadastro h1 {
+    padding: 0 10px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+
+.cadastro h4{
+    margin-bottom: 20px;
+}
+
+.container-img {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cadastro img {
+    width: 80%;
+    display: block;
+    margin: 30px auto 0;
+}
+
+@media screen and (max-width: 991.9px) {
+    .cadastro img {
+        margin-top: 20px;
+        width: 95%;
+    }
+
+    .cadastro p {
+        width:100%;
+    }
+}
+
+.fundo  {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.esquerda {
+    background-color: #f8f9fa;
+    border-radius: 15px 0 0 15px;
+}
+
+.direita {
+    background-color: #87c58f4b;
+    border-radius: 0 15px  15px 0;
+}
+
+@media screen and (max-width: 575.9px)
+{
+
+    .footer {
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 767.9px) {
+    .esquerda {
+        background-color: #fff;
+    }
+
+    .fundo:first-of-type  {
+        padding-top: 0px;
+    }
+
+    .direita {
+        border-radius: 0px;
+    }
+
+    .cadastro img {
+        margin-top: 20px;
+        width: 80%;
+    }
+}
+
+.cadastro p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+}
+
+
+form {
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+form input {
+    margin-bottom: 15px;
+}
+
+.cadastro button,
+.btn-cadastro {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: 0;
+    width: 150px !important;
+}
+
+.texto-p {
+    margin-bottom: 30px;
+}
+
+/*-------------------------- COMO FUNCIONA -------------------------*/
+.funcionamento h5 {
+    color: #0f5088;
+}
+
+.card {
+    width: 80%;
+}
+
+.card img {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.card-text  {
+    margin-bottom: 15px !important;
+}
+
+@media screen and (max-width: 1199.9px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+
+    .card {
+        margin-bottom: 30px;
+        width: 70%;
+    }
+
+    .card img {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+.card-text {
+    text-align: justify;
+    font-size: 16px;
+}
