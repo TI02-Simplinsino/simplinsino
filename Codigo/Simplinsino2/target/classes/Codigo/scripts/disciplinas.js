@@ -80,7 +80,7 @@ async function carregaCursos(){
 	            htmlStr +=
 	            
 	            `<li class="container-curso">
-	                <a href="curso.html?idCurso=${cursos[i].id_curso}&id=0" class="col-lg-3">
+	                <a href="curso.html?idCurso=${cursos[i].id_curso}&id=${video[0].id_video}" class="col-lg-3">
 	                    <img src="${cursos[i].curso_imagem}" alt="">
 	                </a>
 	                <div class="container-texto">

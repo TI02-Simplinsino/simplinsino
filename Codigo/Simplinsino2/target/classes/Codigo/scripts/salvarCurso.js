@@ -135,7 +135,7 @@ function carregaCursosSalvos() {
 // remover curso selecionado pelo usuario
 function removeCurso(index) {
     let usuario = JSON.parse(sessionStorage.getItem('usuarioLogado'));
-    
+
     fetch(`http://localhost:6810/getCursoSalvo/${usuario[0].id_aluno}`)
         .then((response) => response.json())
         .then((data) => {
@@ -151,7 +151,17 @@ function removeCurso(index) {
 
 //carrega usuario logado no menu a esquerda da página de cursos salvos
 function carregaUsuario() {
+
     let usuario = JSON.parse(sessionStorage.getItem('usuarioLogado'));
     let user = document.getElementById('UserCursos')
-    user.innerHTML = `<h6 id="UserCursos">@${usuario[0].usuario_aluno}</h6>`
+    if (sessionStorage.cargo == 'Aluno') {
+
+        user.innerHTML = `<h6 id="UserCursos">@${usuario[0].usuario_aluno}</h6>`
+    }
+    else if(sessionStorage.cargo == 'Professor'){
+
+        user.innerHTML = `<h6 id="UserCursos">@${usuario[0].usuario_professor}</h6>`
+    }
+
+
 }

@@ -45,7 +45,7 @@ function listarVideos () {
                         let htmlStr = ``
                         for (i = 0; i < videos.length; i++) {
                             for (j = 0; j < cursos.length; j++) {
-                                if (videos[i].id_curso == cursos[j].id_curso) {
+                                if (videos[i].id_cursofk == cursos[j].id_curso) {
                                     htmlStr += 
                                     `<tr>
                                         <th scope="row" class="id_video">${videos[i].id_video}</th>
@@ -78,6 +78,7 @@ function init() {
         let campoNome = $("#inputNome").val();
         let campoDescricaoVideo = $("#inputDescricaoVideo").val();
         let campoLink = $("#inputLinkVideo").val();
+        campoLink = encodeURIComponent(campoLink)
 
         fetch(`http://localhost:6815/getUltimoID`)
         .then((response) => response.json())
@@ -114,6 +115,7 @@ function init() {
         let campoNome = $("#inputNome").val();
         let campoDescricaoVideo = $("#inputDescricaoVideo").val();
         let campoLink = $("#inputLinkVideo").val();
+        campoLink = encodeURIComponent(campoLink)
         
         fetch(`http://localhost:6815/update/${campoID}/${campoId_curso}/${campoLink}/${campoDescricaoVideo}/${campoNome}`)
             .then((response) => response.json())
