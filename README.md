@@ -1,4 +1,4 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=452389&assignment_repo_type=GroupAssignmentRepo)
+
 # Plataforma de estudos online: Simplinsino
 
 ![logo_nav](https://user-images.githubusercontent.com/89420917/146030052-760e36bd-2668-4520-88e2-4c7d30274cd6.png)
